@@ -6,7 +6,7 @@ const demoResult = document.querySelector("#demo-result");
 const openAll = document.querySelector("#open-all");
 const closeAll = document.querySelector("#close-all");
 const workflowItems = [...document.querySelectorAll(".workflow-item")];
-const stepLabels = ["KIỂM TRA", "PHIÊN ÂM", "PHÂN TÍCH", "TỔNG HỢP"];
+const stepLabels = ["TRÍCH XUẤT", "ĐÁNH GIÁ", "KIỂM CHỨNG", "TÓM LƯỢC"];
 let activeRun = false;
 let timerIds = [];
 
@@ -56,3 +56,4 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => link.addEventListene
   const target = document.querySelector(link.getAttribute("href"));
   if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
 }));
+
