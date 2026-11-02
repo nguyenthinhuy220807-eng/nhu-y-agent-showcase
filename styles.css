@@ -5,3 +5,36 @@
 @media(max-width:700px){.header-inner{min-height:72px;height:auto}.brand{min-height:44px}.brand-badge{width:44px;height:44px}.main-nav a{display:flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:0 4px}.accordion-actions{gap:6px}.text-button{min-width:44px;min-height:44px;padding:9px 10px}.footer-inner a{display:inline-flex;align-items:center;min-height:44px}}
 @media(min-width:701px) and (max-width:900px){.brand{min-height:44px}.brand-badge{width:44px;height:44px}.main-nav a{display:flex;align-items:center;min-height:44px}.header-button{min-height:44px;display:inline-flex;align-items:center}.text-button{min-height:44px;padding-inline:10px}.footer-inner a{display:inline-flex;align-items:center;min-height:44px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+/* Như Ý: palette tím-lavender và cam đào, tách biệt màu mẫu xanh-vàng. */
+:root{--sky:#cbbcff;--sky-deep:#6552c9;--sky-pale:#f0ecff;--butter:#ffb79e;--butter-pale:#fff0e9;--ink:#29253f;--muted:#716a7e;--line:#e6dff2;--paper:#fff;--bg:#faf8fd;--mint:#e3f3eb;--green:#34805b;--shadow:0 14px 40px rgba(93,71,155,.10)}
+body{background:var(--bg)}
+.hero{background:linear-gradient(125deg,#eee9ff 0%,#fbf8ff 54%,#ffede5 100%)}
+.hero h1 span{color:#6552c9}
+.button-blue{background:#6552c9}
+.button-white{border-color:#e0d8f3}
+.sun{background:#ffd3c2;color:#d37c59;box-shadow:0 0 0 12px #ffe6dc88}
+.star{color:#cc7d67}
+.hero-bottom>span:not(.hero-bottom-note){border-color:#e3d9f4;color:#6b5c91}
+.one-line{border-color:#f0d8ce;background:#fff9f6}
+.section-tint,.section-bluewash{background:#f5f1ff}
+.section-yellowwash{background:#fff3ee}
+.icon-blue{background:#eee9ff;color:#6552c9}
+.icon-butter{background:#ffede5;color:#cc785f}
+.goal-card{background:linear-gradient(140deg,#fff,#fff5f0)}
+.check-list span{color:#9a79d0}
+.demo-ribbon{background:#f2edff;color:#6552c9}
+.demo-result{border-color:#eadffb;background:#fcfaff}
+.demo-panel-head,.prompt-top{background:#f2edff;color:#6552c9}
+.prompt-card em{color:#b8664e}
+.callout-small{background:#fff0e9;color:#85533f}
+.human-box{border-color:#f0d8ce;background:#fff7f3}
+.closing-section{background:linear-gradient(115deg,#eee9ff,#ffefe8)}
+.closing-sun{background:#ffd3c2;color:#c76d51}
+.test-card-ok{border-top-color:#9ecfb2}
+.test-card-wait{border-top-color:#d1b5f3}
+.test-card-wait .test-icon{background:#f2edff;color:#6552c9}
+.tag-fact{background:#eee9ff;color:#6552c9}
+.tag-opinion{background:#f2edff;color:#6b5c91}
+.tag-limit{background:#fff0e9;color:#9f5f47}
+
